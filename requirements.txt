@@ -1,0 +1,4 @@
+cryptography==41.0.0
+customtkinter==5.1.2
+faker==18.10.1
+pillow==9.5.0
