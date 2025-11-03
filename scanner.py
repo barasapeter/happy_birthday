@@ -8,6 +8,8 @@ def is_direct_download_link(text):
     
     return bool(matches)
 
+
+
 def contains_malicious_link(url):
     try:
         response = urllib.request.urlopen(url)
