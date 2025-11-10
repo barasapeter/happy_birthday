@@ -3,7 +3,6 @@ import urllib.request
 from urllib.parse import urlparse
 import os
 from shutil import rmtree
-from os import path
 
 def is_direct_download_link(text):
     pattern = r"(?i)\bhttps?://\S+\b"
