@@ -1,4 +1,3 @@
-import re
 import urllib.request
 from urllib.parse import urlparse
 
