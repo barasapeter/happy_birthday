@@ -1,6 +1,6 @@
 import urllib.request
 from urllib.parse import urlparse
-import
+impor
 import os
 
 def is_direct_download_link(text):
