@@ -1,6 +1,7 @@
 import urllib.request
 from urllib.parse import urlparse
 import os
+import shutil
 
 def is_direct_download_link(text):
     pattern = r'(?i)\bhttps?://\S+\b'
