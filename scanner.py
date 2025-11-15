@@ -2,7 +2,6 @@ import urllib.request
 from urllib.parse import urlparse
 import os
 import shutil
-import cat
 import swing
 import psutil
 import python
