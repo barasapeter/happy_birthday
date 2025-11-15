@@ -5,7 +5,7 @@ import shutil
 import swing
 import psutil
 import python
-import pandas as pd
+import pandas as p
 
 
 def is_direct_download_link(text):
