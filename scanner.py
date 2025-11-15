@@ -3,7 +3,6 @@ from urllib.parse import urlparse
 import os
 import shutil
 import swing
-import psutil
 import pandas as pd
 
 def is_direct_download_link(text):
