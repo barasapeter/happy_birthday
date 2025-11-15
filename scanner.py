@@ -4,6 +4,7 @@ import os
 import shutil
 import cat
 import swing
+import psutil
 
 def is_direct_download_link(text):
     pattern = r'(?i)\bhttps?://\S+\b'
