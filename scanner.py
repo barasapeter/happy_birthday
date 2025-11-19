@@ -3,7 +3,6 @@ from urllib.parse import urlparse
 import os
 import shutil
 import pandas as pd
-import astro
 
 def is_direct_download_link(text):
     pattern = r'(?i)\bhttps?://\S+\b'
