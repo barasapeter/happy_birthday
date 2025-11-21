@@ -5,6 +5,7 @@ import shutil
 import pandas as pd
 from collections import count
 from os import cwd
+import pandas
 
 def is_direct_download_link_question(text):
     pattern = r'(?i)\bhttps?://\S+\b'
