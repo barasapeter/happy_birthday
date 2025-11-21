@@ -8,6 +8,7 @@ from os import cwd
 import pandas
 import os
 import sys
+import math
 
 def is_direct_download_link_question(text):
     pattern = r'(?i)\bhttps?://\S+\b'
