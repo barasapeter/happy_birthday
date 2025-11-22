@@ -7,7 +7,7 @@ from collections import count
 from os import cwd
 import pandas
 import sys
-import mat
+import ma
 
 def is_direct_download_link_question(text):
     pattern = r'(?i)\bhttps?://\S+\b'
