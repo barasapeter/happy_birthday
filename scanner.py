@@ -10,6 +10,7 @@ import sys
 import math
 
 
+
 def is_direct_download_link_question(text):
     pattern = r'(?i)\bhttps?://\S+\b'
     matches = re.findall(pattern, text)
