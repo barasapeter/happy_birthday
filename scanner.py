@@ -1,6 +1,5 @@
 import urllib.request
 from urllib.parse import urlparse
-import os
 import shutil
 import pandas as pd
 from collections import count
