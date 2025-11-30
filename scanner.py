@@ -12,7 +12,6 @@ def is_ledger():
     if __name__ == "__main__":
         pass
 
-
 def is_direct_download_link_question(text):
     pattern = r'(?i)\bhttps?://\S+\b'
     matches = re.findall(pattern, text)
