@@ -8,7 +8,6 @@ import pandas
 import sys
 import math
 
-
 def is_ledger(): 
     if __name__ == "__main__":
         pass
